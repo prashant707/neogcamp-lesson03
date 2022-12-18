@@ -32,22 +32,22 @@
 
     <h2>@lists</h2>
     <h3>Unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item three</li.>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>Reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Eggs</li>
         <li>Bread</li>
@@ -58,20 +58,23 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>Brand</div>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Products</a></li>
-            <li><a href="/">Career</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">Brand</div>
+        <ul class="nav-pills list-non-bullet" >
+            <li class="list-item-inline"><a class="link link-active"  href="/">Home</a></li>
+            <li class="list-item-inline"><a class="link"  href="/">Products</a></li>
+            <li class="list-item-inline"><a class="link"  href="/">Career</a></li>
             
         </ul>
     </nav>
 
     <hr>
     <h2>header</h2>
-    <header><img src="images\main.svg"/></header>
-    <h1>heading inside main</h1>
+    <header class="hero">
+        <img class="hero-image" src="images\main.svg"/>
+        <h1 class="hero-heading">Hi I am Prashant <span class="hero-heading-inverted">Web developer</span></h1>
+    </header>
+    
 
     <hr>
 
