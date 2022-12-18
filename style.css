@@ -4,10 +4,12 @@
 :root{
     --primary-color:#64748b;
     --dark-gray:#334155;
+    --off-white:#e2e8f0;    
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 /* conatainer */
@@ -18,7 +20,7 @@ body {
 }
 
 .container-center {
-    /* max-width: 600px; */
+    max-width: 600px;
     margin: auto;
 }
 
@@ -97,8 +99,40 @@ margin: auto;
 .hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
+    text-align: center;
 }
 
 .hero .hero-heading-inverted {
     color : var(--primary-color)
+}
+
+
+.section {
+    padding: 2rem;
+}
+.section h1{
+
+    text-align: center;
+   
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
